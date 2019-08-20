@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /* A programme to convert and display
-celcius to fahrenheit */
+celsius to fahrenheit */
 
 int main()
 {
-    int celcius;
+    int celsius;
     
-    printf("Celcius-Fahrenheit table\n\n");
-    printf("Celcius Fahrenheit\n");
-    for(celcius = 0; celcius <= 300; celcius = celcius + 20)
+    printf("Celsius-Fahrenheit table\n\n");
+    printf("Celsius Fahrenheit\n");
+    for(celsius = 0; celsius <= 300; celsius = celsius + 20)
     {
-        printf("%3d\t%6.1f\n", celcius, celcius * 1.8 + 32.0);
+        printf("%3d\t%6.1f\n", celsius, celsius * 1.8 + 32.0);
     }
     
     return 0;
